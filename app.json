@@ -20,10 +20,26 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.tuempresa.tuaplicacion"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-dev-client"
+    ],
+    "developmentClient": {
+      "silentLaunch": true
+    },
+    "experiments": {
+      "turboModules": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2e8dc689-b70b-4801-ad96-ec687ce9e86c"
+      }
     }
   }
 }
