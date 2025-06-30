@@ -35,3 +35,10 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# subproyectos
+api-server/node_modules/
+mi-aplicacion/node_modules/
+
+# evitar subir otro repositorio dentro
+mi-aplicacion/.git/
