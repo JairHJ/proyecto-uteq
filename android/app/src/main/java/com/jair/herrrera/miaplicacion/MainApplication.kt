@@ -1,4 +1,4 @@
-package com.tuempresa.tuaplicacion
+package com.jair.herrrera.miaplicacion
 
 import android.app.Application
 import android.content.res.Configuration
