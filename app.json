@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Mi Aplicación",
+    "slug": "mi-aplicacion",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyDea9IMeAAdv0ppE2Jb6ff-hhKxMlQ8Occ"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDea9IMeAAdv0ppE2Jb6ff-hhKxMlQ8Occ"
+        }
+      },
+      "package": "com.jair.herrrera.miaplicacion"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2e8dc689-b70b-4801-ad96-ec687ce9e86c"
+      }
+    }
+  }
+}
